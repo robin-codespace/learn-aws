@@ -18,10 +18,10 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: custom markdownlint config
-          path: config/custom.markdownlint.jsonc
+          path: ./.github/config/custom.markdownlint.jsonc
       - name: Run Markdownlint
         uses: DavidAnson/markdownlint-cli2-action@v19
         with:
           fix: true
-          config: 'config/custom.markdownlint.jsonc'
+          config: './.github/config/custom.markdownlint.jsonc'
           globs: '**/*.md'
