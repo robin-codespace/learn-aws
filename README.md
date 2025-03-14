@@ -25,3 +25,9 @@ the information contained within.
 - Accelerate Workload Migration and Modernisation (20%)
 
 For detailed information, please refer to the [AWS Certified Solutions Architect – Professional Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-sa-pro/AWS-Certified-Solutions-Architect-Professional_Exam-Guide.pdf)
+
+
+## Content Table
+
+### Containerization
+- [AWS ECS (Elastic Container Service)](docs/containerization/aws_ecs/ecs.md)
